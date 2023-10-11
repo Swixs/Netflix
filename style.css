@@ -436,13 +436,13 @@ a {
     width: 360px;
     height: 115px;
     margin-left: 345px;
-    margin-top: 400px;
+    margin-top: 450px;
     z-index: 30;
 }
 
 .fourth-article-left__img {
     width: 700px;
-    height: 500px;
+    height: 529px;
     position: absolute;
     top: 2821px;
     left: 180px;
@@ -495,3 +495,6 @@ a {
     margin-top: 40px;
     margin-left: 40px;
 }
+
+/* ======================================================= */
+
