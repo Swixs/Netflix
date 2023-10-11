@@ -28,7 +28,7 @@ a {
     width: 100%;
     background: url(./img/background.jpg);
     position: relative;
-    height: 115vh;
+    height: 78vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -274,9 +274,107 @@ a {
 .nav-line__nav-button {
     background: none;
     border: none;
-    border-bottom: 1px solid rgb(52, 143, 247);;
-    color:  rgb(52, 143, 247);
+    border-bottom: 1px solid rgb(52, 143, 247);
+    color: rgb(52, 143, 247);
     font-weight: 600;
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 10px;
+}
+
+/* ====================================================================== */
+
+.parent-main__first-main-article {
+    border-bottom: 8px solid rgb(74, 73, 73);
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.first-main-article__first-article-left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first-article-left__title {
+    margin-top: 260px;
+    font-size: 4.2rem;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 180px;
+}
+
+.first-article-left__subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 50px;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+.first-article-right__img-tv {
+    margin-top: 100px;
+    z-index: 100;
+    width: 740px;
+    height: 527px;
+    position: relative;
+}
+
+.first-article-right__first-video {
+    z-index: 2;
+    position: absolute;
+    top: 842px;
+    left: 1101px;
+    width: 540px;
+    height: 459px;
+}
+
+/* ======================================== */
+
+.parent-main__second-main-article {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-main-article__second-article-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-article-left__article-img {
+    margin-left: 200px;
+    margin-top: 150px;
+    width: 700px;
+    height: 520px;
+    z-index: 100;
+    position: relative;
+}
+
+.second-article-left__article-video {
+    position: absolute;
+    top: 1626px;
+    left: 318px;
+    z-index: 3;
+    height: 270px;
+    width: 443px;
+
+
+}
+
+.second-article-left__title {
+    margin-top: 300px;
+    font-size: 4.2rem;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 80px;
+}
+
+.second-article-left__subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 50px;
+    margin-left: 80px;
+    margin-top: 15px;
 }
