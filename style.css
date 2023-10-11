@@ -335,6 +335,7 @@ a {
 .parent-main__second-main-article {
     display: flex;
     flex-direction: row;
+    border-bottom: 8px solid rgb(74, 73, 73);
 }
 
 .second-main-article__second-article-right {
@@ -374,7 +375,123 @@ a {
     font-size: 2rem;
     font-weight: 600;
     color: #fff;
-    margin-left: 50px;
     margin-left: 80px;
     margin-top: 15px;
+}
+
+/* ====================================================== */
+
+.parent-main__third-main-article {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 8px solid rgb(74, 73, 73);
+}
+
+.third-main-article__third-article-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.third-article-left__title {
+    margin-top: 300px;
+    font-size: 4.2rem;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 120px;
+}
+
+.third-article-left__subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.third-article-right__right-img {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+/* ============================================================ */
+
+.parent-main__fourth-main-article {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 8px solid rgb(74, 73, 73);
+    height: 600px;
+}
+
+.fourth-main-article__fourth-article-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-article-left__article-left-content {
+    background-color: #000;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 360px;
+    height: 115px;
+    margin-left: 345px;
+    margin-top: 400px;
+    z-index: 30;
+}
+
+.fourth-article-left__img {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 2821px;
+    left: 180px;
+
+}
+
+.article-left-content__article-content-img {
+    width: 55px;
+    height: 80px;
+    margin: 15px 10px 12px 15px;
+}
+
+.article-content-img__article-content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-content-text__title {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.article-content-text__subtitle {
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: rgb(73, 73, 242);
+    margin-top: 5px;
+}
+
+
+.fourth-article-right__title {
+    margin-top: 300px;
+    font-size: 4.2rem;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 180px;
+}
+
+.fourth-article-right__subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+.article-left-content__img-downoload {
+    margin-top: 40px;
+    margin-left: 40px;
 }
